@@ -1,7 +1,6 @@
 '''
-    OS - Funcionalidades System
-    PYAES - Funcionalidades de Encrypt e Decrypt
-    
+    OS - Options System
+    PYAES - Keys Encrypt/Decrypt
 '''
 import os
 import pyaes
